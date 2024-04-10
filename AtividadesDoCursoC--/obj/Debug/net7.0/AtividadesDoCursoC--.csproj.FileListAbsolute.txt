@@ -1,0 +1,14 @@
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\bin\Debug\net7.0\AtividadesDoCursoC--.exe
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\bin\Debug\net7.0\AtividadesDoCursoC--.deps.json
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\bin\Debug\net7.0\AtividadesDoCursoC--.runtimeconfig.json
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\bin\Debug\net7.0\AtividadesDoCursoC--.dll
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\bin\Debug\net7.0\AtividadesDoCursoC--.pdb
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.AssemblyInfo.cs
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.dll
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\refint\AtividadesDoCursoC--.dll
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.pdb
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.genruntimeconfig.cache
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\ref\AtividadesDoCursoC--.dll
