@@ -12,3 +12,4 @@ C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\
 C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.pdb
 C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.genruntimeconfig.cache
 C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\ref\AtividadesDoCursoC--.dll
+C:\Users\marco\source\repos\AtividadesDoCursoC--\AtividadesDoCursoC--\obj\Debug\net7.0\AtividadesDoCursoC--.sourcelink.json
