@@ -1,6 +1,7 @@
 ﻿//Atividades de Estrutura Sequencial
 
 using System.Globalization;
+using System.Runtime.Intrinsics.Arm;
 
 namespace Curso
 {
@@ -8,7 +9,6 @@ namespace Curso
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
         }
     }
 }
