@@ -1,0 +1,100 @@
+            //1- Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
+            Console.WriteLine("Digite um numero inteiro: ");
+
+            int numero1 = int.Parse(Console.ReadLine());
+
+            if (numero1 < 0) {
+                Console.WriteLine("NEGATIVO");
+            }
+            else
+            {
+                Console.WriteLine("NÃO NEGATIVO");
+            }
+
+
+            //2- Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar
+
+            Console.WriteLine("Digite um numero inteiro para verificar a paridade: ");
+            int numero2 = int.Parse(Console.ReadLine());
+
+            if (numero2 % 2 ==0) {
+                Console.WriteLine("PAR");
+            }
+            else
+            {
+                Console.WriteLine("IMPAR");
+            }
+
+            /*3-Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao
+            Multiplos", indicando se os valores lidos são múltiplos entre si. Atenção: os números devem poder ser digitados em
+            ordem crescente ou decrescente.*/
+
+            Console.WriteLine("Digite dois numeros inteiros A e B: ");
+
+            string[] vet1 = Console.ReadLine().Split(' ');
+            int A = int.Parse(vet1[0]);
+            int B = int.Parse(vet1[1]);
+
+            if (A%B == 0 || B%A == 0)
+            {
+                Console.WriteLine("São multiplos");
+            }
+            else
+            {
+                Console.WriteLine("Não são multiplos");
+            }
+            /*Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode
+             em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.*/
+
+            Console.WriteLine("Digite o horario inicial e o horario final: ");
+            string[] vet2 = Console.ReadLine().Split(' ');
+            int horainicial = int.Parse(vet2[0]);
+            int horafinal = int.Parse(vet2[1]);
+
+            int duracao;
+
+            if(horainicial < horafinal) {
+                duracao = horafinal - horainicial;
+            }
+            else 
+            {
+                duracao = 24 - horainicial + horafinal;
+                    }
+
+            Console.WriteLine($"O JOGO DUROU {duracao} HORAS");
+
+            /*Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A
+            seguir, calcule e mostre o valor da conta a pagar.*/
+
+            Console.WriteLine("Digite o codigo e a quantidade: ");
+            string[] vet3 = Console.ReadLine().Split(' ');
+
+            int codigo = int.Parse(vet3[0]);
+            int quantidade = int.Parse(vet3[1]);
+            double total = 0;
+
+            if(codigo == 1)
+            {
+                total = 4.00 * quantidade;
+            }
+            else if(codigo ==2){
+                total = 4.50 * quantidade;
+            }
+            else if(codigo == 3)
+            {
+                total = 5.00 * quantidade;
+            }
+            else if(codigo == 3)
+            {
+                total = 2.00 * quantidade;
+            }
+            else if(codigo == 4)
+            {
+                total = 1.50 * quantidade;
+            }
+            else
+            {
+                Console.WriteLine("Numero invalido");
+            }
+
+            Console.WriteLine($"Total: R${total.ToString("F2",CultureInfo.InvariantCulture)}");
