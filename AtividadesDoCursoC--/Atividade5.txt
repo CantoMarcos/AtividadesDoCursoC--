@@ -1,0 +1,25 @@
+            //1- Fazer um programa para ler os dados de duas pessoas, depois mostrar o nome da pessoa mais
+            //velha.
+                        Pessoas x, y;
+            x = new Pessoas();
+            y = new Pessoas();
+
+            Console.WriteLine("Digite o nome da primeira pessoa");
+            x.Nome = Console.ReadLine();
+            Console.WriteLine("Digite a idade da primeira pessoa");
+            x.Idade = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o nome da segunda pessoa");
+            y.Nome = Console.ReadLine();
+            Console.WriteLine("Digite a idade da segunda pessoa");
+            y.Idade = int.Parse(Console.ReadLine());
+
+            if(x.Idade > y.Idade)
+            {
+                Console.WriteLine("Pessoa mais velha: " + x.Nome);
+            }
+            else
+            {
+                Console.WriteLine("Pessoa mais velha: " + y.Nome);
+            }
+
